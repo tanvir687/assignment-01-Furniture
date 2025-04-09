@@ -66,13 +66,13 @@ body {
   }
 .hero-content {
   background-color: rgba(255, 243, 227, 1);
-  padding: 60px 35px 30px 30px;
-  width: 40rem;
+  padding: 50px 35px 0px 30px;
+  width: 38rem;
   height: 26rem;
   position: absolute;
   z-index: 1;
   top: 9rem;
-  left: 45rem;
+  left: 39rem;
 }
 
 .hero-secondary-heading {
@@ -106,6 +106,13 @@ body {
 /* hero part end */
 
 /* range part start  */
+.range-area{
+    width: 100%;
+}
+.range{
+    width: 80%;
+    margin: 0 auto;
+}
 .range-content{
     text-align: center;
     padding: 50px 0px;
@@ -122,14 +129,19 @@ body {
     color: rgba(102, 102, 102, 1);
     padding-bottom: 30px;
 }
-.range-carts{
+
+.range-cart{
     display: flex;
     justify-content: space-between;
-    margin: 0rem 7.5rem;
-    gap: 30px;
+    gap: 20px;
     border-radius: 0px;
 }
 
+.cart-01 img,
+.cart-02 img,
+.cart-03 img{
+    width: 100%;
+}
 .cart-heading{
     text-align: center;
     line-height: 60px;
@@ -224,10 +236,9 @@ body {
     width: 320px;
     margin: 0 auto;
 }
-.range-carts{
+.range-cart{
     display: flex;
     flex-direction: column;
-    margin: 0rem 0rem;
     align-items: center;
     justify-content: center;
 
@@ -241,9 +252,7 @@ body {
     margin: 0;
     overflow: hidden;
     width: 300px;
-
 }
-
   /* range part end */
 }
 
