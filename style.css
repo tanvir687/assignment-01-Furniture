@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --font-family: "Poppins", sans-serif;
+    --font-weight-01: 500;
+    --font-weight-02: 700;
+    --primary-color: rgba(184, 142, 47, 1);
+}
+
+/* header part start  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 55px;
+    align-items: center;
+}
+.navbar-logo img{
+    width: 120px;
+}
+
+.navbar-links{
+    margin: 0 auto;
+}
+.navbar-links-area ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    align-items: center;
+}
+
+.navbar-links-area ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-size: 1rem;
+    font-family: var(--font-family);
+}
+
+.navbar-icon{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar-icon img{
+    width: 18px;
+}
+/* header part end  */
+
+/* hero part start  */
+.hero{
+    position: relative;
+}
+.hero-area{
+    overflow: hidden;
+}
+
+.hero-content{
+    background-color: rgba(255, 243, 227, 1);
+    padding: 60px 35px 30px 30px;
+    width: 40rem;
+    height: 26rem;
+    position: absolute;
+    z-index: 1;
+    top: 9rem;
+    left: 45rem;
+}
+
+.hero-secondary-heading{
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.hero-primary-heading{
+    color: var(--primary-color);
+    font-size: 3.3rem;
+    line-height: 65px;
+    width: 29rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.hero-pera{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    padding-bottom: 35px;
+}
+
+.primary-btn{
+    padding: 25px 70px;
+    background-color: var(--primary-color);
+    border: none;
+    color: #ffff;
+    
+}
+/* hero part end */
+
